@@ -31,7 +31,7 @@ GO
 -- Create date: 25/06/2018
 -- =============================================
 
-CREATE PROCEDURE [dbo].[SQLReportToZabbix_v2] (@IncomingParam VARCHAR(MAX) = '')
+CREATE PROCEDURE [dbo].[SQLReportToZabbix] (@IncomingParam VARCHAR(MAX) = '')
 AS
 BEGIN
 

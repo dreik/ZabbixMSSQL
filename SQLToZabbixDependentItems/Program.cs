@@ -18,7 +18,7 @@ namespace ConsoleApp2
             if (args.Length != 1)
                 return;
             string connectionString = "Data Source=.;Initial Catalog=DbAdmin;Integrated Security=True;Pooling=False";
-            string sqlQuery = @"exec SQLReportToZabbix_v2 @IncomingParam";
+            string sqlQuery = @"exec SQLReportToZabbix @IncomingParam";
 
             string str = "";
             IEnumerable<dynamic> result;
