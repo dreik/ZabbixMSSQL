@@ -17,7 +17,7 @@ This template is PoC due to the nature of SQL monitoring (every DBA would have t
 1. Import ZabbixMSSQL.xml template into your Zabbix and attach to SQL server.
 2. Execute `ZabbixMSSQL.sql` on your SQL server.
 2. Add `ZabbixMSSQL.conf` content into your `zabbix_agentd.conf`. Don't forget to modify paths to binaries according to your installation.
-3. Compile .Net apps and copy binaries with dlls to path configured above. (pre-compiled binaries are available in Releases).
+3. Compile .Net apps and copy binaries with dlls to path configured above. (pre-compiled binaries are available in [Releases](https://github.com/dreik/ZabbixMSSQL/releases)).
 4. Restart Zabbix Agent service.
 
 #### Influenced by
